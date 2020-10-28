@@ -1,0 +1,38 @@
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.video-content {
+    width: 70%;
+}
+
+.recommend-content {
+    flex-grow: 10;
+    border: solid;
+    margin-top: 50px;
+}
+
+.video-title {
+    border: solid;
+    margin: 20px;
+    padding: 10px;
+}
+
+.video-snapshot {
+    display: flex;
+}
+
+iframe {
+    margin: 20px;
+}
+
+.video-snapshot-title {
+    width: 300px;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+.video-description {
+    margin: 20px;
+    padding-right: 200px;
+}
